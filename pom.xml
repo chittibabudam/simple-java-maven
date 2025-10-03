@@ -33,6 +33,16 @@
             </snapshots>
         </repository>
     </repositories>
+      <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:8081/repository/maven-central/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8081/repository/maven-central//</url>
+        </repository>
+    </distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
