@@ -21,18 +21,7 @@
     <sonar.organization>chittibabudam</sonar.organization>
   </properties>
   <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus Public Repository Group</name>
-            <url>http://localhost:8081/repository/maven-central/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+   </repositories>
       <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
