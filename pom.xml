@@ -27,10 +27,7 @@
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-central/</url>
         </snapshotRepository>
-        <repository>
-            <id>nexus</id>
-            <url>http://localhost:8081/repository/maven-central//</url>
-        </repository>
+        
     </distributionManagement>
   <build>
     <pluginManagement>
