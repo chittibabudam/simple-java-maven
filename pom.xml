@@ -15,10 +15,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.organization>chittibabudam</sonar.organization>
   </properties>
+  <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Public Repository Group</name>
+            <url>http://localhost:8081/repository/maven-central/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
   <build>
     <pluginManagement>
       <plugins>
